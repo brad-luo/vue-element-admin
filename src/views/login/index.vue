@@ -105,7 +105,7 @@ export default {
         password: [{ required: true, trigger: 'blur', validator: validatePassword }]
       },
       passwordType: 'password',
-      capsTooltip: false,
+      capsTooltip: true,
       loading: false,
       showDialog: false,
       redirect: undefined,
